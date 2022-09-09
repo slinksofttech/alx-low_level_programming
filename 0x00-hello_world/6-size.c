@@ -15,7 +15,6 @@ int main(void)
 	long long lli;
 	float f;
 
-	// sizeof evaluates the size of a variable
 	printf("Size of char: %d byte(s)\n", sizeof(c));
 	printf("Size of int: %d byte(s)\n", sizeof(i));
 	printf("Size of long int: %d byte(s)\n", sizeof(li));

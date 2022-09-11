@@ -6,7 +6,7 @@
 /**
  * main - prints out the last part of a quote in the standard error.
  *
- * Return: 1 (success)
+ * Return: Always 1 (Success)
  * 
  * **/
 

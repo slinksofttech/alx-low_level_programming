@@ -9,7 +9,7 @@
  *  this program is to print postive, zero or nevagtive numbers
  *
  *  Return: Always 0.
- *  **/
+**/
 int main(void)
 {
 	int n;

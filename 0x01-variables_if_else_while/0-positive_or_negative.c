@@ -6,6 +6,8 @@
  *
  *  Description: using main function
  *  this program is to print postive, zero or nevagtive numbers
+ *
+ *  Return: Always 0.
  *  **/
 int main(void)
 {
@@ -18,13 +20,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 	}
-	else (n < 0)
+	else
 	{
-		printf("%d is negative\n", n)
+		printf("%d is zero\n", n)
 	}
 	return (0);
 }

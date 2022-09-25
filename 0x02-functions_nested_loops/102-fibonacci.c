@@ -9,7 +9,7 @@ int main(void)
 {
 	int inc;
 	unsigned long n1 = 0, n2 = 1, n3;
-	
+
 	for (inc = 0; inc < 50; inc++)
 	{
 		n3 = n1 + n2;
@@ -23,4 +23,3 @@ int main(void)
 	}	
 	return (0);
 }
-

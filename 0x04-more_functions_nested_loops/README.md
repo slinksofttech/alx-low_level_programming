@@ -9,3 +9,5 @@
 8 - Write a function that prints a square, followed by a new line.
 9 - Fizz-Buzz
 10 - Write a function that prints a triangle, followed by a new line.
+11 - Write a program that finds and prints the largest prime factor of the number
+12 - Write a function that prints an integer.

@@ -1,32 +1,30 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * sqrt_a - check the code for Holberton School students.
- * @a: number
- * @b: number of power
- * Return: Always 0.
- */
-
-int sqrt_a(int a, int b)
-{
-	if (b * b == a)
-	{
-		return (b);
-	}
-	else if (b * b > a)
-	{
-		return (-1);
-	}
-	return (sqrt_a(a, b + 1));
-}
-
-/**
- * _sqrt_recursion - check the code for Holberton School students.
- * @n: number
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: number to be used
  *
- * Return: Always 0.
+ * Return: the square root of n
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_a(n, 0));
+	if (n == 1 || n == 0)
+		return (n);
+	return (_sqrt(0, n));
+}
+
+/**
+ * _sqrt - returns the square root of a number
+ * @n: test number
+ * @x: squared number
+ *
+ * Return: the square root of n
+ */
+int _sqrt(int n, int x)
+{
+	if (n > x / 2)
+		return (-1);
+	else if (n * n == x)
+		return (n);
+	return (_sqrt(n + 1, x));
 }
